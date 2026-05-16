@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>threepoolman.</title>
+    <style>
+        /* Desain dasar agar web terlihat rapi */
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f9f9f9;
+        }
+        
+        /* Bagian Atas (Header) */
+        header { 
+            background-image: url('/backgroundpool.jpeg'); 
+            background-size: cover; 
+            background-position: center; 
+            color: #ffffff;
+            padding: 20px; 
+            text-align: center; 
+        }
+        nav a { 
+            color: white; 
+            margin:  15px; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        
+        /* Bagian Utama (Hero) */
+        .hero { 
+            background-color: #ffffff; 
+            padding: 60px 20px; 
+            text-align: center; 
+            border-bottom: 2px solid #eeeeee;
+        }
+        .hero h2 {
+            font-size: 30px;
+            color: #008cff;
+        }
+        
+        /* Bagian Daftar Jasa */
+        .services-container {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .services { 
+            display: flex; 
+            justify-content: center; 
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .service-box { 
+            background-color: white;
+            border: 1px solid #cccccc; 
+            gap: 50px;
+            padding: 20px; 
+            width: 30%; 
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .susunan-rapi {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 20px;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .susun {
+            background-color: white;
+            border: 1px solid #cccccc; 
+            padding: 30px; 
+            width: 65%; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+            
+
+        
+        /* Bagian Bawah (Footer) */
+        footer { 
+            background-color: #333333; 
+            color: white; 
+            text-align: center; 
+            padding: 15px; 
+            margin-top: 40px;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <!-- Ini adalah bagian paling atas website -->
+    <header>
+        <h1>Threepoolman.</h1>
+        <nav>
+            <a href="#Home page">Home page</a>
+            <a href="#Services">Services</a>
+            <a href="#portofolio maintenance pool">portofolio maintenance pool</a>
+            <a href="#About Us">About Us</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Ini adalah bagian sambutan -->
+    <section id="Home page" class="hero">
+        <h2>The Best Solution for your swimming pool problems</h2>
+        <p>Our team offers efficient and safe pool maintenance services for your swimming pool, so that your swimming pool remains clear and safe for swimming. </p>
+    </section>
+
+    <!-- Ini adalah bagian daftar layanan -->
+    <section id="Services" class="services-container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h3>swimming pool maintenance</h3>
+                <p>Swimming pool maintenance includes cleaning the swimming pool and providing chemicals to maintain the chemical stability of the swimming pool water so that the swimming pool is clear and safe for users to use.</p>
+            </div>
+            <div class="service-box">
+                <h3>swimming pool technician</h3>
+                <p>Swimming pool technicians include repairs or installation of components that support the smooth and safe operation of swimming pools.
+            </div>
+        </div>
+    </section>
+
+    <!-- Ini adalah bagian portofolio maintenance pool -->
+ <section id="portofolio maintenance pool" class="services-container">
+ <h2>portofolio maintenance pool</h2>  
+        <div class="susunan-rapi">
+            <div class="susun" >        
+                <h3>Pool villa uluwatu ( Bali )</h3>       
+                <img src="fotopool1.jpeg"
+                 width="400px">
+            </div>
+
+            <div class="susun"> 
+                <h3>Pool villa pecatu ( Bali )</h3>
+                <img src="fotopool2.jpeg"
+                 width="400px">
+            </div>
+
+            <div class="susun"> 
+                <h3>Pool villa umalas ( Bali )</h3>
+                <img src="fotopool3.jpeg"
+                width="400px">
+            </div>
+                
+            <div class="susun"> 
+                <h3>Pool villa ungasan ( Bali )</h3>
+                <img src="fotopool4.jpeg"
+                width="400px">
+            </div>
+        </div>
+    </section>
+
+
+
+
+                
+
+    <section id="About Us" class="hero">
+        <h3>About Us</h3>
+        <p>Threepoolman is a team of professionals specializing in the maintenance and repair of swimming pool operational systems. Our services focus not only on aesthetics but also on ensuring the water's chemical and microbiological quality is maintained for safe and comfortable use. Furthermore, our experienced technicians are ready to address various technical issues with your pool's pump room operational system.</p>
+    </section>
+
+        
+        
+
+    <!-- Ini adalah bagian kontak -->
+     <section id="Contact"></section>
+    <footer id="Contact">
+        <p>Contact us for more info</p>
+        <p>Email: fattah091207@gmail.com | WhatsApp: 085742634019</p>
+    </footer>
+
+</body>
+</html>
