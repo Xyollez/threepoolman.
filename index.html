@@ -79,7 +79,7 @@
             margin-top: 20px;
             width: 100%;
             height: auto;
-            max-width: 90%;
+            max-width: 100%;
         }
         .susun {
             background-color: white;
@@ -92,6 +92,7 @@
         }
 
         .card img {
+        max-width: 100%;  /* KUNCI: Gambar dipaksa maksimal seukuran kotaknya, gak bisa lebih */
         height: auto;     /* KUNCI: Gambar mengecil secara proporsional, gak bakal gepeng */
         
 }
@@ -151,30 +152,32 @@
  <section id="portofolio maintenance pool" class="services-container">
  <h2>portofolio maintenance pool</h2>  
         <div class="susunan-rapi">
-            <div class="card img">
-            <div class="susun" >        
+            <div class="susun" class="card img">  
+              
                 <h3>Pool villa uluwatu ( Bali )</h3>       
                 <img src="fotopool1.jpeg"
                  width="400px">
             </div>
 
-            <div class="susun"> 
+            <div class="susun" 
+             class="card img"> 
                 <h3>Pool villa pecatu ( Bali )</h3>
                 <img src="fotopool2.jpeg"
                  width="400px">
             </div>
 
-            <div class="susun"> 
+            <div class="susun" 
+             class="card img"> 
                 <h3>Pool villa umalas ( Bali )</h3>
                 <img src="fotopool3.jpeg"
                 width="400px">
             </div>
                 
-            <div class="susun"> 
+            <div class="susun" 
+             class="card img"> 
                 <h3>Pool villa ungasan ( Bali )</h3>
                 <img src="fotopool4.jpeg"
                 width="400px">
-            </div>
             </div>
         </div>
     </section>
