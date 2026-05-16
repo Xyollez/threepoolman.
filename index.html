@@ -90,6 +90,12 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
+
+        .card img {
+        max-width: 100%;  /* KUNCI: Gambar dipaksa maksimal seukuran kotaknya, gak bisa lebih */
+        height: auto;     /* KUNCI: Gambar mengecil secara proporsional, gak bakal gepeng */
+        display: block;   /* Menghilangkan celah kosong (whitespace) di bawah gambar */
+}
             
 
         
@@ -146,6 +152,7 @@
  <section id="portofolio maintenance pool" class="services-container">
  <h2>portofolio maintenance pool</h2>  
         <div class="susunan-rapi">
+            <div class="card img">
             <div class="susun" >        
                 <h3>Pool villa uluwatu ( Bali )</h3>       
                 <img src="fotopool1.jpeg"
@@ -168,6 +175,7 @@
                 <h3>Pool villa ungasan ( Bali )</h3>
                 <img src="fotopool4.jpeg"
                 width="400px">
+            </div>
             </div>
         </div>
     </section>
