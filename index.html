@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>threepoolman.</title>
     <style>
+
+        w
         /* Desain dasar agar web terlihat rapi */
         body { 
             font-family: Arial, sans-serif; 
@@ -45,6 +48,11 @@
         .services-container {
             text-align: center;
             padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;           /* Membuat kartu otomatis turun ke bawah jika layar sempit */
+            justify-content: center;   /* Membuat kartu berada di tengah */
+            gap: 20px;          
+            box-sizing: container-box;       /* Memberi jarak antar kartu agar tidak menempel */
         }
         .services { 
             display: flex; 
@@ -69,6 +77,9 @@
             padding: 20px;
             gap: 50px;
             margin-top: 20px;
+            width: 100%;
+            height: auto;
+            max-width: 90%;
         }
         .susun {
             background-color: white;
@@ -95,7 +106,9 @@
     </style>
 </head>
 <body>
+      
 
+    
     <!-- Ini adalah bagian paling atas website -->
     <header>
         <h1>Threepoolman.</h1>
